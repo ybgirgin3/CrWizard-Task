@@ -15,21 +15,6 @@ def home(request):
     except: 
         data = "Hata"
     return render(request, "root/home.html", {'data': data})
-    
-
-# def parsing(request):
-#     import urllib3
-#     import xmltodict
-#     import traceback
-    
-#     url = "https://www.w3schools.com/xml/plant_catalog.xml"
-#     http = urllib3.PoolManager()
-#     response = http.request("GET", url)
-#     data = xmltodict.parse(response.data)
-#     return render(request, "root/home.html", {'data': data})
-    
-    
-
 
 
 from django.contrib.auth import logout
