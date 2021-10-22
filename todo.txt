@@ -1,4 +1,4 @@
-google authentication kısmını hallet
-xml parsing kısmını hallet. (ilk etap static url)
+[+] google authentication kısmını hallet
+[+] xml parsing kısmını hallet. (ilk etap static url)
 xml valid mi onu kontrol et
 
